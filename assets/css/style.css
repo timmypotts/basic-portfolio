@@ -1,0 +1,69 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+li {
+   float: left;
+  }
+
+li a {
+   display: block;
+   color: #777777;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+  }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4aaaa5;
+  }
+
+div {
+    margin-top:10px;
+    line-height: 2.0;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+

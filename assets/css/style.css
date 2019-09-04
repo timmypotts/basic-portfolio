@@ -79,6 +79,7 @@ ul {
     text-align: center;
     padding: 20px;
     text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
   
   li a:hover {
@@ -112,3 +113,46 @@ input[type=text] {
     padding-bottom: 0px;
 }
   
+
+/* Portfolio Thumbnail Links */
+
+.thumb {
+    width:300px;
+    height:225px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.container {
+    position: relative;
+  }
+  
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: -30px;
+}
+
+#one {
+
+}
+
+#two {
+
+}
+
+#three {
+
+}
+
+#four {
+
+}
+
+#five {
+
+}

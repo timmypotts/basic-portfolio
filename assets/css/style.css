@@ -1,7 +1,7 @@
 /* stylesheet */
 
 body {
-    background-color: lightblue;
+    background-image: url("/home/tim/.git/basic-portfolio/assets/images/papyrus.png")
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
     background-color: #4aaaa5;
     padding: 11.5px;
     margin: 0;
-    color: white;
+    color: #ffffff;
     top: 0;
     overflow: hidden;
     position: fixed;
@@ -26,13 +26,16 @@ h2 {
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
+    color: #777777
 }
 
 div {
     width: 960px;
     border: 1px solid white;
     padding: 0px;
-    margin: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
     background-color: white;
 }
 
@@ -45,8 +48,8 @@ header {
     background-color: white;
     margin: 0;
     overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     top: 0;
     left: 0;
     position: fixed;
@@ -57,3 +60,55 @@ header {
     border: white;
     top: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #4aaaa5;
+  }
+
+
+/* Text box modifications */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+#message {
+    height: 200px;
+}
+
+.prompt {
+    padding-bottom: 0px;
+}
+  

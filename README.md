@@ -1,7 +1,1 @@
-Bugs in webpage:
-
--Large text box spawns cursor in middle and not top right
--Text box over image links not turning out right
--Cannot center navbar links within margin
-
--HAD TROUBLE WITH: Centering a header across from navbar links without offsetting
+Portfolio page is shifting certain elements. It might just be the scroll bar shifting ecerything to the left. Having a little trouble with positioning. Need to experiment with clearfix a bit since the project tiles are floating outside of the container.
